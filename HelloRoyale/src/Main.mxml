@@ -1,0 +1,21 @@
+<j:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+    xmlns:j="library://ns.apache.org/royale/jewel">
+    
+    <fx:Script>
+        <![CDATA[
+            import org.apache.royale.events.MouseEvent;
+            import org.apache.royale.jewel.Alert;
+
+            private function btnClickedHandler(event:MouseEvent):void
+            {
+                Alert.show("Button Clicked");
+            }
+        ]]>
+    </fx:Script>
+
+    <j:initialView>
+        <j:View>
+            <j:Button text="Click me" click="btnClickedHandler(event)"/>
+        </j:View>
+    </j:initialView>
+</j:Application>

@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "source-path": [
+            "src"
+        ]
+    },
+    "files": [
+        "src/Main.as"
+    ]
+}

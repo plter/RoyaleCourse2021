@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "source-path": [
+            "src"
+        ],
+        "theme": "${royalelib}/themes/JewelTheme/src/main/resources/defaults.css"
+    },
+    "files": [
+        "src/Main.mxml"
+    ]
+}
